@@ -1,0 +1,18 @@
+.app {
+}
+
+.app-page {
+  max-width: 40em;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+@media (min-width: 40em) {
+  .app-page {
+    margin-top: 2em;
+  }
+}
+
+.app-page h2 {
+  color: #333;
+}

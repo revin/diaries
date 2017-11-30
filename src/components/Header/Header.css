@@ -1,0 +1,48 @@
+.app-header {
+  background-color: #4c1e9a;
+  background: linear-gradient(to bottom, #add6f7 0%,#5288ba 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.35);
+  border-bottom: 1px solid #894cc6;
+  height: 6.5em;
+  padding: .1em 0 .5em 0;
+  color: white;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2em;
+  font-family: "Fira Code", Monaco, "Courier New", sans-serif;
+}
+
+.app-header nav {
+  max-width: 40em;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+.app-header nav a,
+.app-header .login{
+  flex: auto;
+  line-height: 2em;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #448;
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-header nav a.active {
+  background-color: #dde;
+  background: linear-gradient(to top, rgba(0,0,0,0.025) 0%,rgba(240,240,240,.85) 100%)
+}
+
+.app-header .login {
+  background: none;
+  font-size: inherit;
+}

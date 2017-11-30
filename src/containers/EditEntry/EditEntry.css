@@ -1,0 +1,35 @@
+.entry-form textarea {
+  width: 100%;
+  height: 8em;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+.entry-form .public-checkbox {
+  display: block;
+}
+
+.entry-form .buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1em;
+  margin-top: 2em;
+}
+
+.entry-form button {
+  font-size: 1em;
+  padding: .5em 1em;
+  border: 1px solid #999;
+}
+
+.entry-form button[type=submit] {
+  background: linear-gradient(to bottom, #add6f7 0%,#5288ba 100%);
+  color: #fff;
+}
+
+.entry-form button:not([type=submit]) {
+  background: linear-gradient(to bottom, rgba(0,0,0,.1) 0%,rgba(0,0,0,.3) 100%)
+}
